@@ -12,7 +12,7 @@
     <FrameLayout
         android:layout_width="220dp"
         android:layout_height="120dp"
-        android:id="@+id/frameLayout"
+        android:id="@+id/containerP"
         android:background="#60c8f9">
 
         <TextView
@@ -47,24 +47,17 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_toEndOf="@+id/frameLayout"
+        android:layout_toEndOf="@+id/container"
         android:id="@+id/frameLayout2">
 
     </FrameLayout>
-
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/frameLayout" />
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="120dp"
         android:id="@+id/image"
         android:layout_gravity="center_horizontal|bottom"
-        android:layout_toEndOf="@+id/frameLayout"
+        android:layout_toEndOf="@+id/container"
         android:background="#60c8f9"
         android:src="@drawable/sol"/>
 
@@ -75,8 +68,14 @@
         android:id="@+id/clear"
         android:textColor="#ffffff"
         android:textSize="20dp"
-        android:layout_above="@+id/listView"
-        android:layout_alignEnd="@+id/listView"
         android:layout_marginEnd="38dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@+id/image"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/clear"
+        android:id="@+id/container"></FrameLayout>
 
 </RelativeLayout>
