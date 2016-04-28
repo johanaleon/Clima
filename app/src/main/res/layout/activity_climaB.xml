@@ -13,7 +13,7 @@
     <FrameLayout
         android:layout_width="350dp"
         android:layout_height="120dp"
-        android:id="@+id/container"
+        android:id="@+id/containerP"
         android:background="#c8e7f4"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true">
@@ -25,7 +25,7 @@
         android:layout_height="300dp"
         android:id="@+id/frameLayout2"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/container">
+        android:layout_toEndOf="@+id/containerP">
 
         <ImageView
             android:layout_width="205dp"
@@ -86,10 +86,8 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="291dp"
-            android:layout_gravity="left|top"
-            android:layout_alignBottom="@+id/frameLayout2"
-            android:layout_alignStart="@+id/frameLayout2">
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"

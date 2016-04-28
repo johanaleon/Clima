@@ -3,4 +3,15 @@
     <string name="temperatureF">13º</string>
     <string name="fecha">Hoy, 21 de Abril</string>
     <string name="temperatureC">20º</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="detalles">Detalles</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key">Location</string>
+    <string name="pref_location_default">Pereira,CO</string>
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_label_metric">Metric</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
 </resources>
